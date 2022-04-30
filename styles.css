@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+    margin: 0%;
+}
+
+.button {
+    background-color: hsl(0, 0%, 20%, 1);
+    border: none;
+    color: white;
+    padding: 4% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95%;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.not-found {
+    display: inline-flex;
+    padding-left: 5%;
+    color: hsl(0, 0%, 20%, 1);
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#espanta {
+    width: 40%;
+    height: auto;
+    padding: 5%;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    color: hsl(0, 0%, 20%, 1);
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-size: 5vw;
+    font-weight: 1000, bolder;
+    line-height: 130%;
+    letter-spacing: -0.035em;
+}
+
+.description {
+    width: 65%;
+    color: hsl(0, 0%, 31%, 1);
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.035em;
+}
+
+body>footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.foot {
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 1vw;
+    color: hsl(0, 0%, 74%, 1);
+    position: sticky;
+    margin: 0%;
+}
+
+a {
+    color: inherit !important;
+}
+
+
+@media screen and (max-width: 480px) {
+    .not-found {
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        padding-top: 2%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #espanta {
+        width: 80%;
+        height: auto;
+    }
+
+    .object {
+        width: 90%;
+
+    }
+
+    .title {
+        font-size: 12vw;
+    }
+
+    .description {
+        font-size: 5vw;
+        width: 90% !important;
+    }
+
+    .button {
+        font-size: 3vw;
+        padding: 6% 7%;
+    }
+
+    .foot {
+        font-size: 3vw;
+        padding-bottom: 3%;
+    }
+}
